@@ -6,6 +6,8 @@
 
 CREATE DATABASE IF NOT EXISTS flashshop CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
 USE flashshop;
+SET NAMES utf8mb4;
+SET CHARACTER SET utf8mb4;
 
 -- ============================================================
 -- TABLE: users
