@@ -30,7 +30,7 @@ CREATE TABLE IF NOT EXISTS category (
     name        VARCHAR(100) NOT NULL,
     slug        VARCHAR(120) UNIQUE NOT NULL,
     description TEXT,
-    icon        VARCHAR(10)  DEFAULT '📦',
+    icon        VARCHAR(10)  DEFAULT NULL,
     created_at  TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB;
 
